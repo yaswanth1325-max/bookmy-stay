@@ -14,6 +14,14 @@ public abstract class Room {
         this.isBooked = false;
     }
 
+
+        protected int price;   // ✅ ADD THIS
+
+    public double getPrice() {
+        return price;
+    }
+
+
     public int getRoomNumber() {
         return roomNumber;
     }
