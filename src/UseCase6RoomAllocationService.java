@@ -16,7 +16,8 @@ public class UseCase6RoomAllocationService {
         queue.add(new Reservation("Charlie", "Single"));
         queue.add(new Reservation("David", "Suite"));
 
-        RoomAllocationService service = new RoomAllocationService(inventory);
+        RoomAllocationService serbookmy-stay
+        vice = new RoomAllocationService(inventory);
 
         service.processBookings(queue);
     }
